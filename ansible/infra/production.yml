@@ -1,6 +1,7 @@
 ---
-- hosts: web
+- hosts: db
   vars:
     env: prod
+    server_role: db
   roles:
-    - { role: 'hostname' }
+    - { role: 'common' }

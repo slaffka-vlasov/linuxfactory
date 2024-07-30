@@ -2,5 +2,6 @@
 - hosts: web
   vars:
     env: dev
+    server_role: web
   roles:
-    - { role: 'hostname' }
+    - { role: 'common' }
