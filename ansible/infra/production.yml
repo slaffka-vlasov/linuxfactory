@@ -1,0 +1,6 @@
+---
+- hosts: web
+  vars:
+    env: prod
+  roles:
+    - { role: 'hostname' }
