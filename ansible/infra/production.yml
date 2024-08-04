@@ -3,5 +3,7 @@
   vars:
     env: prod
     server_role: db
+    packages: "{{ packages_prod }}"
   roles:
     - { role: 'common' }
+    - { role: 'docker' }
