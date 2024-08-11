@@ -3,7 +3,6 @@
   vars:
     env: dev
     server_role: web
-    packages: "{{ packages_dev }}"
   roles:
     - { role: 'common' }
     - { role: 'docker' }

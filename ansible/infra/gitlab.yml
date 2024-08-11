@@ -1,0 +1,7 @@
+---
+- hosts: gitlab
+  vars:
+    env: local
+    server_role: gitlab
+  roles:
+    - { role: 'common' }
